@@ -148,7 +148,7 @@ const (
 
 	// ServiceAnnotationLoadBalancerProtocol is a service annotation for specifying
 	// the load balancer listener protocol ("HTTP", "HTTP2", "TCP").
-	ServiceAnnotationLoadBalancerProtocol = "oci.oraclecloud.com/load-balancer-protocol"
+	ServiceAnnotationLoadBalancerProtocol = "oci.oraclecloud.com/oci-load-balancer-protocol"
 
 	// ServiceAnnotationLoadBalancerInitialDefinedTagsOverride is a service annotation for specifying
 	// defined tags on the LB
